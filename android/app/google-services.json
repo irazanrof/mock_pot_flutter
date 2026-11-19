@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1087932153811",
+    "project_id": "mockpott",
+    "storage_bucket": "mockpott.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087932153811:android:d4b19b3bdf1f521d75b926",
+        "android_client_info": {
+          "package_name": "com.example.mockpott"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTiwrfC6F_qodHn249Z7ciPq8aX4RgyQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

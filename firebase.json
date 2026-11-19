@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mockpott",
+          "appId": "1:1087932153811:android:d4b19b3bdf1f521d75b926",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mockpott",
+          "configurations": {
+            "android": "1:1087932153811:android:d4b19b3bdf1f521d75b926",
+            "ios": "1:1087932153811:ios:801b68b45bb337b175b926",
+            "macos": "1:1087932153811:ios:801b68b45bb337b175b926",
+            "web": "1:1087932153811:web:7857c8598314f16a75b926",
+            "windows": "1:1087932153811:web:7b56080fe1fa27d475b926"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
